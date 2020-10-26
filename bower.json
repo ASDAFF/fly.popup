@@ -1,0 +1,13 @@
+{
+  "name": "fly.popup",
+  "version": "1.7.1",
+  "main": "",
+  "ignore": [
+    "source",
+    ".gitignore",
+    ".idea",
+    "bower.json",
+    "gulpfile.js",
+    "package.json"
+  ]
+}

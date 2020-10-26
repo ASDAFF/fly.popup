@@ -1,0 +1,8 @@
+#skyweb24_contact_type2 div.subtitle div {background: linear-gradient(to right, #c0392b 0%, #f1c40f 40%, #f1c40f 60%, #c0392b 100%);}
+#skyweb24_contact_type2 h2 {color: #c0392b;}
+#skyweb24_contact_type2 fieldset label.submit>button {background: #c0392b; color: #fff;}
+
+#skyweb24_contact_type2 fieldset label input:not([type="submit"]):empty {border: 1px solid #c0392b;}
+#skyweb24_contact_type2 fieldset label textarea:empty {border: 1px solid #c0392b;}
+
+.skyweb24_popup_pro_timer{background: #c0392b;}
