@@ -1,4 +1,7 @@
 <?
+/**
+ * Copyright (c) 27/10/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
 use Bitrix\Main;
 IncludeModuleLangFile(__FILE__);
 Class fly_popup extends CModule
