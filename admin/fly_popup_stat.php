@@ -15,7 +15,6 @@ $module_id="fly.popup";
 $APPLICATION->SetTitle(GetMessage("fly.popup_STAT_TITLE"));
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_after.php");
-$APPLICATION->IncludeFile("/bitrix/modules/".$module_id."/include/headerInfo.php", Array());
 
 echo GetMessage("fly.popup_STAT_TITLE");
 ?>

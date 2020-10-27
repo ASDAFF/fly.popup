@@ -1,7 +1,7 @@
 <?
-$MESS['fly.popup_MAIN_TITLE'] = 'Всплывающие окна PRO';
+$MESS['fly.popup_MAIN_TITLE'] = 'Всплывающие окна FLY';
 
-$MESS['fly.popup_LIST_TITLE'] = 'Всплывающие окна PRO';
+$MESS['fly.popup_LIST_TITLE'] = 'Всплывающие окна FLY';
 $MESS['fly.popup_LIST_CREATE_NEW_POPUP'] = 'Создать всплывающее окно';
 
 $MESS['fly.popup_TAB_CONDITION_NAME'] = 'Условия показа';

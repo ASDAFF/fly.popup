@@ -1,7 +1,7 @@
 <?
 $MESS["fly.popup_PARTNER_NAME"] = "ASDAFF";
-$MESS["fly.popup_MODULE_NAME"] = 'Всплывающие окна PRO';
-$MESS["fly.popup_MODULE_DESCRIPTION"] = 'Модуль «Всплывающие окна PRO» - позволяет создавать на Вашем сайте неограниченное число всплывающих окон, которые позволят Вам решать всевозможные задачи.';
+$MESS["fly.popup_MODULE_NAME"] = 'Всплывающие окна FLY';
+$MESS["fly.popup_MODULE_DESCRIPTION"] = 'Модуль «Всплывающие окна FLY» - позволяет создавать на Вашем сайте неограниченное число всплывающих окон, которые позволят Вам решать всевозможные задачи.';
 $MESS["fly.popup_PARTNER_URI"] = 'https://asdaff.github.io/';
 $MESS['fly.popup_EVENT_NAME']='Отправка купона';
 $MESS['fly.popup_EVENT_NAME_ROULETTE']='Отправка результата рулетки';
