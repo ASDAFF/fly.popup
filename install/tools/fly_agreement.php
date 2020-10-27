@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/fly.popup/tools/agreement.php");?>

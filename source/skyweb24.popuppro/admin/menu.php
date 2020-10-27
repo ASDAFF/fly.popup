@@ -18,24 +18,24 @@ if(!empty($request['id'])){
 //IncludeModuleLangFile(__FILE__, LANGUAGE_ID);
 
   $aMenu = array(
-    "parent_menu" => "global_menu_marketing", // поместим в раздел "Маркетинг"
-    "sort"        => 100,                    // вес пункта меню
-    "url"         => "",  // ссылка на пункте меню
-    "text"        => GetMessage("skyweb24.popuppro_MENU_MAIN"),       // текст пункта меню
-    "title"       => GetMessage("skyweb24.popuppro_MENU_MAIN_TITLE"), // текст всплывающей подсказки
-    "icon"        => "skwb24_popuppro_menu_icon", // малая иконка
-   // "page_icon"   => "skwb24_refsales_page_icon", // большая иконка
-    "items_id"    => "skyweb24_popuppro",  // идентификатор ветви
-    "items"       => array(// остальные уровни меню сформируем ниже.
+    "parent_menu" => "global_menu_marketing", // РїРѕРјРµСЃС‚РёРј РІ СЂР°Р·РґРµР» "РњР°СЂРєРµС‚РёРЅРі"
+    "sort"        => 100,                    // РІРµСЃ РїСѓРЅРєС‚Р° РјРµРЅСЋ
+    "url"         => "",  // СЃСЃС‹Р»РєР° РЅР° РїСѓРЅРєС‚Рµ РјРµРЅСЋ
+    "text"        => GetMessage("skyweb24.popuppro_MENU_MAIN"),       // С‚РµРєСЃС‚ РїСѓРЅРєС‚Р° РјРµРЅСЋ
+    "title"       => GetMessage("skyweb24.popuppro_MENU_MAIN_TITLE"), // С‚РµРєСЃС‚ РІСЃРїР»С‹РІР°СЋС‰РµР№ РїРѕРґСЃРєР°Р·РєРё
+    "icon"        => "skwb24_popuppro_menu_icon", // РјР°Р»Р°СЏ РёРєРѕРЅРєР°
+   // "page_icon"   => "skwb24_refsales_page_icon", // Р±РѕР»СЊС€Р°СЏ РёРєРѕРЅРєР°
+    "items_id"    => "skyweb24_popuppro",  // РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµС‚РІРё
+    "items"       => array(// РѕСЃС‚Р°Р»СЊРЅС‹Рµ СѓСЂРѕРІРЅРё РјРµРЅСЋ СЃС„РѕСЂРјРёСЂСѓРµРј РЅРёР¶Рµ.
 		array(
-			"url"         => "skyweb24_popuppro.php?lang=".LANGUAGE_ID,  // ссылка на пункте меню
-			"title"       => $title, // текст всплывающей подсказки
-			 "text"        => $text,       // текст пункта меню
+			"url"         => "skyweb24_popuppro.php?lang=".LANGUAGE_ID,  // СЃСЃС‹Р»РєР° РЅР° РїСѓРЅРєС‚Рµ РјРµРЅСЋ
+			"title"       => $title, // С‚РµРєСЃС‚ РІСЃРїР»С‹РІР°СЋС‰РµР№ РїРѕРґСЃРєР°Р·РєРё
+			 "text"        => $text,       // С‚РµРєСЃС‚ РїСѓРЅРєС‚Р° РјРµРЅСЋ
 		)/*,
 		array(
-			"url"         => "skyweb24_popuppro_stat.php?lang=".LANGUAGE_ID,  // ссылка на пункте меню
-			"title"       => GetMessage("skyweb24.popuppro_MENU_MAIN_STAT_TITLE"), // текст всплывающей подсказки
-			 "text"        => GetMessage("skyweb24.popuppro_MENU_MAIN_STAT"),       // текст пункта меню
+			"url"         => "skyweb24_popuppro_stat.php?lang=".LANGUAGE_ID,  // СЃСЃС‹Р»РєР° РЅР° РїСѓРЅРєС‚Рµ РјРµРЅСЋ
+			"title"       => GetMessage("skyweb24.popuppro_MENU_MAIN_STAT_TITLE"), // С‚РµРєСЃС‚ РІСЃРїР»С‹РІР°СЋС‰РµР№ РїРѕРґСЃРєР°Р·РєРё
+			 "text"        => GetMessage("skyweb24.popuppro_MENU_MAIN_STAT"),       // С‚РµРєСЃС‚ РїСѓРЅРєС‚Р° РјРµРЅСЋ
 		)*/
 	)   
   );

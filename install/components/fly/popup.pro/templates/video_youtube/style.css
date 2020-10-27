@@ -1,0 +1,36 @@
+.alreadygoing span.popup-window-close-icon{opacity:0.8;}
+.alreadygoing span.popup-window-close-icon:after{content: '\00d7';width: 27px;height: 27px;background: none;font-size: 27px;line-height: 1;color: black;top: 0;right: 0;left: initial;bottom: initial;transform: initial;text-shadow: 0px 0px 6px rgba(255,255,255,0.9);}
+#fly_video_youtube {margin: 0 auto; max-width: 720px; width:720px;}
+@media screen and (max-width:750px){
+	#fly_video_youtube {width:600px;}
+}
+@media screen and (max-width:620px){
+	#fly_video_youtube {width:500px;}
+}
+@media screen and (max-width:520px){
+	#fly_video_youtube {width:400px;}
+}
+@media screen and (max-width:420px){
+	#fly_video_youtube {width:320px;}
+}
+
+        
+.fly_popup_pro_timer{position:absolute;background:rgba(0, 0, 0, 0.7);color:white;height:50px;display:flex;animation:none;max-width:350px;width:350px;padding: 10px;}
+.fly_popup_pro_timer:after{content:' ';}
+.fly_popup_pro_timer>*{flex:0 1;}
+.fly_popup_pro_timer>svg{flex-basis:30px;}
+.fly_popup_pro_timer>.title{width:120px;flex-basis:120px;}
+.fly_popup_pro_timer>.timer{width:172px;flex-basis:172px;display:flex;flex-wrap:wrap;justify-content:space-around;}
+.fly_popup_pro_timer>.timer>div:not(.clock){flex:0 1 38px;width:38px;text-align:center;font-size:10px;}
+.fly_popup_pro_timer>.timer>div.clock{font-size:20px;line-height:1;max-width:170px;text-align:center;width:170px;display: flex;justify-content: space-around;}
+.fly_popup_pro_timer>.timer>div.clock>span{width:38px;flex:0 1 38px;}
+.fly_popup_pro_timer>.timer>div.clock>span.sep{width:5px;flex:0 1 5px;}
+.fly_popup_pro_timer.top{top:-50px;}
+.fly_popup_pro_timer.bottom{top:100%;}
+.fly_popup_pro_timer.left{left:0;}
+.fly_popup_pro_timer.right{left:calc(100% - 350px);}
+@media screen and (max-width:400px){
+	.fly_popup_pro_timer{width:320px;max-width:320px;}
+	.fly_popup_pro_timer.right{left:calc(100% - 320px);}
+	.fly_popup_pro_timer>svg{display:none;}
+}

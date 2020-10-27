@@ -1,0 +1,13 @@
+#fly_contact_type3 div.back:before {background: #e74c3c;}
+#fly_contact_type3 div.main:before {background: #c0392b;}
+
+#fly_contact_type3 fieldset label.submit>button {background: #c0392b; color: #fff;}
+#fly_contact_type3 fieldset label.submit>button:hover {background: #e74c3c;}
+
+#fly_contact_type3 fieldset label input:not([type="submit"]):empty {border: 1px solid #c0392b;}
+#fly_contact_type3 fieldset label textarea:empty {border: 1px solid #c0392b;}
+
+#fly_contact_type3 .success{color:#fff;}
+.alreadygoing.success_send{background: #e74c3c;}
+
+.fly_popup_pro_timer{background: #c0392b;}

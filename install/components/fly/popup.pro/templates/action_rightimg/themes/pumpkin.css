@@ -1,0 +1,25 @@
+#fly_popup_action {
+    background: #ecf0f1;
+    }
+
+
+    #fly_popup_action .text {
+        color: #2c3e50;
+        }
+        #fly_popup_action .text h2 {
+            color: #d35400;
+            }
+        #fly_popup_action .text h3 {
+            color: #d35400;
+            }
+        #fly_popup_action .text .info {
+
+            }
+        #fly_popup_action .text .going_link {
+            background: #d35400;
+            }
+        #fly_popup_action .text .going_link:hover {
+            background: #e67e22;
+            }
+
+.fly_popup_pro_timer{background: #e67e22;}

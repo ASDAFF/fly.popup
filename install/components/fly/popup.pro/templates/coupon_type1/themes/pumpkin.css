@@ -1,0 +1,7 @@
+#fly_coupon_coupon button {background: #e67e22;}
+#fly_coupon_coupon button:hover {background: #d35400;}
+#fly_coupon_coupon span.sale {color: white; background: rgba(211, 84, 0, 0.6);}
+#fly_coupon_coupon input {color: #d35400;}
+#fly_coupon_coupon .coupon_block input.goodCoupon {color: #e67e22; border: 2px dashed #d35400;}
+
+.fly_popup_pro_timer{background: #e67e22;}

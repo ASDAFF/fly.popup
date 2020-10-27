@@ -1,0 +1,8 @@
+.popup-window.flPopup {padding:0; background-color: transparent; transition-property:opacity;transition-duration: .5s;}
+	.popup-window.flPopup .popup-window-content {background-color: transparent;}
+	.popup-window.flPopup .popup-window-close-icon {position: absolute; top: 0px; right: 0px; width: 25px; height: 25px; opacity: .6; background: rgba(0, 0, 0, 1); z-index: 10000;}
+		.popup-window.flPopup .popup-window-close-icon:hover {opacity: 1;}
+		/*.popup-window.flPopup .popup-window-close-icon:after {content: '\2716'; font-size: 20px; color: white; position: absolute; top: 7px; left: 11px; background: none;}*/
+		/*.popup-window.flPopup .popup-window-close-icon:after {content: 'X'; font-size: 20px; color: white; position: absolute; top: 7px; left: 11px; background: none;}*/
+		.popup-window.flPopup .popup-window-close-icon:before {content: ' '; transform: rotate(45deg); position: absolute; top: 2px; right: 11px; width: 2px; height: 20px; background-color: #fff;}
+		.popup-window.flPopup .popup-window-close-icon:after {content: ' '; transform: rotate(-45deg); position: absolute; top: 2px; left: 12px; width: 2px; height: 20px; background-color: #fff;}

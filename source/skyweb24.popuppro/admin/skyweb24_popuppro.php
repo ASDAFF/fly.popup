@@ -294,8 +294,8 @@ if(!empty($request['id'])){
 
 	$lAdmin->AddFooter(
 	  array(
-		array("title"=>GetMessage("MAIN_ADMIN_LIST_SELECTED"), "value"=>$rsData->SelectedRowsCount()), // êîë-âî ýëåìåíòîâ
-		array("counter"=>true, "title"=>GetMessage("MAIN_ADMIN_LIST_CHECKED"), "value"=>"0"), // ñ÷åò÷èê âûáðàííûõ ýëåìåíòîâ
+		array("title"=>GetMessage("MAIN_ADMIN_LIST_SELECTED"), "value"=>$rsData->SelectedRowsCount()), // ÐºÐ¾Ð»-Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²
+		array("counter"=>true, "title"=>GetMessage("MAIN_ADMIN_LIST_CHECKED"), "value"=>"0"), // ÑÑ‡ÐµÑ‚Ñ‡Ð¸Ðº Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð½Ñ‹Ñ… ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²
 	  )
 	);
 	$lAdmin->AddGroupActionTable(Array(

@@ -1,0 +1,29 @@
+/*
+ * Copyright (c) 27/10/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
+#fly_roulette h2{
+    color:#e74c3c;
+}
+#fly_roulette h3{
+    color:#e74c3c;
+}
+#fly_roulette p.result_roll{
+    color:#e74c3c;
+}
+#fly_roulette label.email.input>input{
+    border:1px solid #c0392b;
+    border-radius:3px;
+    color:#e74c3c;
+}
+#fly_roulette button.roll_roulette{
+    border:1px solid #c0392b;
+    background:#c0392b;
+    color:white;
+    border-radius:3px;
+    padding:10px;
+}
+#fly_roulette div.arrow path:nth-child(1){fill:#e74c3c!important}
+#fly_roulette div.arrow path:nth-child(2){fill:#c0392b!important}
+
+.fly_popup_pro_timer{background: #e74c3c;}

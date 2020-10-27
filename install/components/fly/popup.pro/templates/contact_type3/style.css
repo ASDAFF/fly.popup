@@ -1,0 +1,367 @@
+.alreadygoing span.popup-window-close-icon{opacity:0.8; right:-40px; top:-40px;}
+.alreadygoing span.popup-window-close-icon:after{content: '\00d7';width: 27px;height: 27px;background: none;font-size: 27px;line-height: 1;color: black;top: 0;right: 0;left: initial;bottom: initial;transform: initial;text-shadow: 0px 0px 6px rgba(255,255,255,0.9);}
+#fly_contact_type3{
+    margin: 0 auto;
+    width: 800px;
+    box-sizing: border-box;
+	position:relative;
+	/* background:white; */
+	/* border:1px solid #777; */
+}
+#fly_contact_type3>.img{
+	position: absolute;
+    bottom: 93px;
+    left: 0;
+	transform:translate(-35%,-50%);
+	max-height:400px;
+	max-width:300px;
+	z-index:200;
+}
+#fly_contact_type3 div.back{
+	width: 60%;
+    padding: 20px 0 20px 210px;
+    font-size: 16px;
+    font-style: italic;
+    float: left;
+	color:white;
+	z-index:100;
+	box-sizing:border-box;
+}
+#fly_contact_type3 div.back:before{
+	content:'';
+    position: absolute;
+    top: 0;
+    bottom: -20px;
+    left: 0;
+    width: 60%;
+	/* position:relative; */
+	z-index:100;
+    /* z-index: -1; */
+    transform: skewX(10deg);
+	height: 150px;
+}
+#fly_contact_type3 div.back span{
+	font-size: 16px;
+    font-style: italic;
+	color:white;
+	position:relative;
+	z-index:300;
+}
+#fly_contact_type3 div.main{
+	float: left;
+    width: 65%;
+    padding: 20px 0 20px 210px;
+    position: relative;
+    font-size: 24px;
+	z-index:100;
+	box-sizing:border-box;
+}
+#fly_contact_type3 div.main h2{
+	font-size: 150%;
+    font-weight: bold;
+	color:white;
+	z-index:100;
+	position:relative;
+	text-align:left;
+}
+#fly_contact_type3 div.main .error{
+	
+}
+#fly_contact_type3 div.main:before{
+	content:'';
+	background: #1999d2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* z-index: -1; */
+    transform: skewX(10deg);
+}
+
+#fly_contact_type3 form{
+    overflow: hidden;
+    position: absolute;
+    padding: 10px 80px 10px 58%;
+    right: 0;
+    top: 0%;
+    transform: translate(10%,-4%);
+    width: 100%;
+    /* z-index: -2; */
+    box-sizing: border-box;
+	min-height: 310px;
+}
+#fly_contact_type3 form:before{
+    content: '';
+    position: absolute;
+    background: #ecf0f1;
+    transform: skewX(10deg);
+    width: 95%;
+    height: 100%;
+    top: 0;
+    left: 0; 
+}
+#fly_contact_type3 label{
+	width:100%;
+	display:block;
+	margin:0 auto 0;
+	padding: 0 15px;
+	box-sizing:border-box;
+}
+#fly_contact_type3 fieldset{
+	position:relative;
+}
+#fly_contact_type3 fieldset label input::-webkit-input-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label input::-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label input:-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label input:-ms-input-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea::-webkit-input-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea::-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea:-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea:-ms-input-placeholder{font-weight:initial;}
+
+#fly_contact_type3 fieldset label input:focus::-webkit-input-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label input:focus::-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label input:focus:-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label input:focus:-ms-input-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea:focus::-webkit-input-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea:focus::-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea:focus:-moz-placeholder{font-weight:initial;}
+#fly_contact_type3 fieldset label textarea:focus:-ms-input-placeholder{font-weight:initial;}
+
+#fly_contact_type3 fieldset label input, #fly_contact_type3 fieldset label textarea{width:100%;display:block; box-sizing:border-box;}
+#fly_contact_type3 label>span{
+	height:20px;
+	font-family:20px;
+	line-height:20px;
+	color:#777;
+}
+#fly_contact_type3 fieldset label.required sup{display:none!important;}
+#fly_contact_type3 fieldset label.required sup{display:inline-block!important; color:#e74c3c;}
+#fly_contact_type3 fieldset label textarea:empty{
+	line-height:35px;
+	padding-left:10px;
+	padding-top: 10px;
+	font-size: 14px;
+	background: #fff;
+}
+#fly_contact_type3 fieldset label{margin-bottom:5px; padding:0 5px; position:relative; box-sizing:border-box;}
+#fly_contact_type3 fieldset label:first-child{margin-top:0;}
+#fly_contact_type3 fieldset label>*{display:inline-block;}
+#fly_contact_type3 fieldset .notshow{display:none;}
+
+
+#fly_contact_type3 fieldset label.one{width:100%;}
+#fly_contact_type3 fieldset label.two{width:50%;}
+#fly_contact_type3 fieldset label.three{width:33.3%;}
+#fly_contact_type3 fieldset label>textarea{width:100%; min-height: 60px;}
+
+#fly_contact_type3 fieldset label.submit{width:100%; margin-bottom:0;}
+#fly_contact_type3 fieldset label.submit>button{
+	width:100%;
+	height:40px;
+	line-height:1;
+	text-align:center;
+	border:0;
+	border-radius:5px;
+	padding:0;
+	font-size: 16px;
+}
+
+#fly_contact_type3 fieldset label span{
+	width:80%;
+	text-align:left;
+	display:block;
+}
+#fly_contact_type3 fieldset label input:not([type="submit"]):empty{
+	height: 35px;
+	padding-left: 10px;
+	border: 0;
+	padding-top: 15px;
+	outline: none;
+	font-weight: 800;
+	font-size: 14px;
+	border-radius:5px;
+}
+#fly_contact_type3 fieldset label textarea:empty+span,
+#fly_contact_type3 fieldset label input:empty+span{
+	position: absolute;
+	left: 10px;
+	line-height: 35px;
+	width: 300px;
+	font-size: 14px;
+	transition: all 0.3s;
+	top: 0;
+	font-weight: 400;
+	cursor: text;
+	color: #bdc3c7;
+		line-height: 20px;
+	display: block;
+	font-size: 12px;
+}
+#fly_contact_type3 fieldset label textarea:focus+span,
+#fly_contact_type3 fieldset label input:focus+span,
+#fly_contact_type3 fieldset label textarea:valid+span,
+#fly_contact_type3 fieldset label input:valid+span{
+	line-height: 20px;
+	display: block;
+	font-size: 12px;
+}
+
+#fly_contact_type3 img{max-width:100%;}
+#fly_contact_type3 button, #fly_contact_type3 input[type=submit]{cursor:pointer;}
+#fly_contact_type3 fieldset label div.info input[type='checkbox']{
+	height:initial;
+	width:initial;
+	display:inline;
+}
+#fly_contact_type3 fieldset label div.info a{
+	display:inline;
+}
+#fly_contact_type3 fieldset label input[name=use_consent]:empty{height:1em; width:1em; vertical-align: middle; display:inline-block; vertical-align:middle;}
+
+.fly_popup_pro_timer{position:absolute;background:rgba(0, 0, 0, 0.7);color:white;height:50px;display:flex;animation:none;max-width:350px;width:350px;padding: 10px;}
+.fly_popup_pro_timer:after{content:' ';}
+.fly_popup_pro_timer>*{flex:0 1;}
+.fly_popup_pro_timer>svg{flex-basis:30px;}
+.fly_popup_pro_timer>.title{width:120px;flex-basis:120px;}
+.fly_popup_pro_timer>.timer{width:172px;flex-basis:172px;display:flex;flex-wrap:wrap;justify-content:space-around;}
+.fly_popup_pro_timer>.timer>div:not(.clock){flex:0 1 38px;width:38px;text-align:center;font-size:10px;}
+.fly_popup_pro_timer>.timer>div.clock{font-size:20px;line-height:1;max-width:170px;text-align:center;width:170px;display: flex;justify-content: space-around;}
+.fly_popup_pro_timer>.timer>div.clock>span{width:38px;flex:0 1 38px;}
+.fly_popup_pro_timer>.timer>div.clock>span.sep{width:5px;flex:0 1 5px;}
+.fly_popup_pro_timer.top{top:-50px;}
+.fly_popup_pro_timer.bottom{top:100%;}
+.fly_popup_pro_timer.left{left:0;}
+.fly_popup_pro_timer.right{left:calc(100% - 350px);}
+@media screen and (max-width:400px){
+	.fly_popup_pro_timer{width:320px;max-width:320px;}
+	.fly_popup_pro_timer.right{left:calc(100% - 320px);}
+	.fly_popup_pro_timer>svg{display:none;}
+}
+
+@media screen and (min-width:975px){
+	#fly_contact_type3{
+		min-height:500px;
+	}
+}
+
+@media screen and (max-width:975px){
+	#fly_contact_type3>.img{
+		display:none;
+	}
+	#fly_contact_type3 div.back{
+		padding: 20px 0 20px 40px;
+		width:50%;
+	}
+	#fly_contact_type3 div.back:before{
+		width:50%; 
+	}
+	#fly_contact_type3 div.main{
+		padding: 20px 0 20px 40px;
+		width:55%;
+	}
+	#fly_contact_type3 form{
+		padding: 10px 70px 10px 52%;
+		width: 100%;
+		transform: translate(6%,-4%);
+	}
+}
+@media screen and (max-width:885px){
+	#fly_contact_type3 div.back{
+		width: 100%;
+		transform: translate(4%,0%);
+	}
+	#fly_contact_type3 div.main{
+		width: 50%;
+		transform: translate(4%,0%);
+	}
+	#fly_contact_type3 form{
+		padding: 10px 115px 10px 56%;
+		width: 100%;
+		transform: translate(0%,0%);
+	}
+	#fly_contact_type3 form:before{
+		width: 88%;
+		top: 0;
+		left: 4%;
+	}
+}
+@media screen and (max-width:800px){
+	#fly_contact_type3{
+		width:100%;
+		padding:10%;
+		box-sizing:border-box;
+	}
+	.alreadygoing span.popup-window-close-icon{opacity:0.8; right:20px; top:20px; z-index:999;}
+}
+#popup-message.popup-window.flPopup .popup-window-close-icon{z-index:300;right:-50px;top:-20px;}
+@media screen and (max-width:768px){
+    #fly_contact_type3 form:before{
+        width: 100%;
+        top: 0;
+        left: 0px;
+        position: absolute;
+        transform: unset;
+    }
+    #fly_contact_type3 form{
+        padding: 20px;
+        position: relative;
+    }
+    #fly_contact_type3 div.back{
+        display: none;
+    }
+    #fly_contact_type3 div.main{
+        width: 100%;
+        transform: unset;
+    }
+    #fly_contact_type3 div.main:before{
+        transform:unset;
+    }
+    #fly_contact_type3{
+        width: 300px;
+        padding: 0%;
+        margin:0;
+        box-sizing: border-box;
+    }
+    #popup-message.popup-window.flPopup .popup-window-close-icon{
+        top:0;
+        right:0;
+    }    
+}
+@media screen and (max-width:736px){
+	#fly_contact_type3 div.main,
+	#fly_contact_type3 div.back,
+	#fly_contact_type3 div.back:before,
+	#fly_contact_type3 div.main:before{
+		transform:none;
+		width:100%;
+	}
+	#fly_contact_type3 div.main,
+	#fly_contact_type3 div.back,
+	#fly_contact_type3 form{
+		position:relative;
+	}
+	#fly_contact_type3 form{
+		width:100%;
+		padding:10px 10%;
+	}
+	#fly_contact_type3 form:before{
+		transform:none;
+		width:100%;
+		left:0;
+	}
+	#fly_contact_type3 div.main,
+	#fly_contact_type3 div.back{
+		padding:0 5%;
+	}
+	#fly_contact_type3 div.back h3{
+		margin:10px 0;
+	}
+}
+
+.alreadygoing.success_send{padding:25px 20px 20px;}
+.alreadygoing.success_send span.popup-window-close-icon{opacity:0.8; right:-8px; top:0;}
+.alreadygoing .success{font-size:1.2em;}
+
+.success_send #fly_contact_type3{width:auto; min-height:0;}

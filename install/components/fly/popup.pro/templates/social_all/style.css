@@ -1,0 +1,42 @@
+.alreadygoing span.popup-window-close-icon{opacity:0.8;}
+.alreadygoing span.popup-window-close-icon:after{content: '\00d7';width: 27px;height: 27px;background: none;font-size: 27px;line-height: 1;color: black;top: 0;right: 0;left: initial;bottom: initial;transform: initial;text-shadow: 0px 0px 6px rgba(255,255,255,0.9);}
+#fly_social_all {
+	margin: 0 auto; max-width: 100%;
+	box-sizing:border-box;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+#fly_social_all h2{
+	text-align:center;
+	padding: 20px;
+	color:white;
+	margin:0;
+}
+#fly_social_all #inst_wid,
+#fly_social_all #vk_groups,
+#fly_social_all #ok_group_widget{
+	display:inline-block;
+	float:left;
+	vertical-align:top;
+}
+#fly_social_all>.social_holder{
+	background:white;
+}
+#fly_social_all .clear{
+	clear:both;
+}
+
+@media screen and (max-width:900px){
+	#fly_social_all #inst_wid,
+	#fly_social_all #vk_groups,
+	#fly_social_all #ok_group_widget{
+		float:initial;
+		display:block;
+		margin:0 auto;
+		text-align:center;
+	}
+	#fly_social_all{
+		width:auto!important;
+		max-width:auto!important;
+	}
+}

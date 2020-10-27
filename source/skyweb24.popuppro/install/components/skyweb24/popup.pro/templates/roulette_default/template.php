@@ -94,7 +94,7 @@ function roll_roulette_func(count){
 		var rand = Math.floor(Math.random()*(count));
 		var res=-(deg*percent*(rand)-center);
 		var sector = rand+1; 
-		if(sector>count) sector=1; //âûèãðûø
+		if(sector>count) sector=1; //Ð²Ñ‹Ð¸Ð³Ñ€Ñ‹Ñˆ
 		document.querySelector('#skyweb24_roulette div.rotate_block').style.transform='rotate('+(res-3600)+'deg)';
     setTimeout(function(){res_roll(sector)},7000);
 	}else{

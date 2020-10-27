@@ -1,0 +1,8 @@
+#fly_contact_type2 div.subtitle div {background: linear-gradient(to right, #16a085 0%, #3498db 40%, #3498db 60%, #16a085 100%);}
+#fly_contact_type2 h2 {color: #16a085;}
+#fly_contact_type2 fieldset label.submit>button {background: #16a085; color: #fff;}
+
+#fly_contact_type2 fieldset label input:not([type="submit"]):empty {border: 1px solid #16a085;}
+#fly_contact_type2 fieldset label textarea:empty {border: 1px solid #16a085;}
+
+.fly_popup_pro_timer{background: #16a085;}

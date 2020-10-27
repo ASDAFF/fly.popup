@@ -1,0 +1,9 @@
+.fly_discount>div.content>h2 {color: #10ac84;}
+.fly_discount fieldset label.submit>input {background: #1dd1a1; border-color: #1dd1a1;}
+	.fly_discount fieldset label.submit>input:hover {background: #10ac84; border-color: #10ac84;}
+.fly_discount>.card {background: radial-gradient(ellipse at center, #10ac84 50%, #1dd1a1 100%);}
+.fly_discount>.background>span {position: absolute; border-radius: 50%;}
+	.fly_discount>.background>span:nth-child(odd) {background: #1dd1a180;}
+	.fly_discount>.background>span:nth-child(even) {background: #10ac84bf;}
+
+.fly_popup_pro_timer {background: #1dd1a1;}
