@@ -1496,8 +1496,8 @@ class popup{
 	public static function insertPopups(){
 		if(!defined('ADMIN_SECTION') && empty($_SERVER['HTTP_X_REQUESTED_WITH'])){
 			$afterTimeSecond=0;
-			if(!empty($_SESSION['skwb24_popup_afterTimeSecond'])){
-				$afterTimeSecond=time()-$_SESSION['skwb24_popup_afterTimeSecond'];
+			if(!empty($_SESSION['flp_popup_afterTimeSecond'])){
+				$afterTimeSecond=time()-$_SESSION['flp_popup_afterTimeSecond'];
 			}else{
 				$_SESSION['skwb24_popup_afterTimeSecond']=time();
 				$afterTimeSecond=0;

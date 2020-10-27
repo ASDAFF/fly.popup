@@ -23,8 +23,8 @@ if(!empty($request['id'])){
     "url"         => "",  // ссылка на пункте меню
     "text"        => GetMessage("fly.popup_MENU_MAIN"),       // текст пункта меню
     "title"       => GetMessage("fly.popup_MENU_MAIN_TITLE"), // текст всплывающей подсказки
-    "icon"        => "skwb24_popup_menu_icon", // малая иконка
-   // "page_icon"   => "skwb24_refsales_page_icon", // большая иконка
+    "icon"        => "flp_popup_menu_icon", // малая иконка
+   // "page_icon"   => "flp_refsales_page_icon", // большая иконка
     "items_id"    => "fly_popup",  // идентификатор ветви
     "items"       => array(// остальные уровни меню сформируем ниже.
 		array(

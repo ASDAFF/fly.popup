@@ -272,7 +272,7 @@ var managerPopup={
 
 							var hint = '';
 							if(templatesType[type]['props'][nextProp]['hint']){
-								hint = '<span class="skwb24-item-hint" id="hint_'+nextProp+'">?</span>';
+								hint = '<span class="flp-item-hint" id="hint_'+nextProp+'">?</span>';
 								hints+=nextProp+'#$%';
 								hints_text+=templatesType[type]['props'][nextProp]['hint']+'#$%';
 							}
@@ -593,7 +593,7 @@ $(document).ready(function(){
 			slideRoot.append($(this));
 		});
 	}
-	slideRoot.skwb24Slider();
+	slideRoot.flpSlider();
 	sliderWorks();
 	selectContactTab();
 
@@ -757,7 +757,7 @@ BX.addCustomEvent('stopUpload', function(result){
 	setTimeout(function(){managerPopup.updateImgBox();}, 100);
 });
 
-jQuery.fn.skwb24Slider = function(options){
+jQuery.fn.flpSlider = function(options){
 	var settings = $.extend({
 		'orientation' : 'horizontal',//vertical
 		'slides':3
@@ -815,7 +815,7 @@ function selectContactTab(){
 function selectPreviewTab(){
 	if($('.slide_type').width()==0){
 		$('.slide_type').css('width', '');
-		$('.slide_type').skwb24Slider();
+		$('.slide_type').flpSlider();
 		sliderWorks();
 	}
 }

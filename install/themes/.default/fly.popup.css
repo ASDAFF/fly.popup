@@ -1,4 +1,4 @@
-.skwb24_popup_menu_icon{
+.flp_popup_menu_icon{
     background: url(icons/fly.popup/fly_popup_small_icon.png) 4px 2px no-repeat;
 }
 
@@ -132,7 +132,7 @@ background-color: #f00;
 }
 #popup_img_list figure .del_img:before {transform: rotate(45deg);}
 #popup_img_list figure .del_img:after {transform: rotate(-45deg);}
-.skwb24-item-hint{
+.flp-item-hint{
     border-radius: 50%;
     border: 1px solid;
     width: 16px;
@@ -225,7 +225,7 @@ background: #3498db;}
 .popup_detail a.add-roulette-row{
     margin-top: 10px;
 }
-.popup_detail .block.roulette .skwb24-item-hint{border:1px solid transparent; font-weight: normal;}
+.popup_detail .block.roulette .flp-item-hint{border:1px solid transparent; font-weight: normal;}
 .popup_detail .select_block #edit_content div.block label:first-child{font-size: 18px; text-align: center;}
 .popup_detail .select_block #edit_content div.block>label>a.toggle{display: initial; font-size: 14px; margin: 0px 10px; box-sizing: border-box; text-decoration: none; border-bottom: 1px dashed;}
 .popup_detail .select_block #edit_content div.block>label>input{width: 250px;margin-right: 80px;}

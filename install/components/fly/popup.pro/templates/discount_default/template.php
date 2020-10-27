@@ -75,7 +75,7 @@
 				$arResult['EMAIL_SHOW']=($arResult['EMAIL_SHOW']=='N')?'notshow':'';
 				$param_consent[]=$arResult['EMAIL_TITLE'];
 			}?>
-            <span class="not_new"><?=GetMessage('skwb24.not_new')?></span>
+            <span class="not_new"><?=GetMessage('flp.not_new')?></span>
             <span class="not_valid"><?=$arResult['EMAIL_NOT_NEW_TEXT']?></span>
 			<label class="<?=$arResult['EMAIL_SHOW']?> <?=$arResult['EMAIL_REQUIRED']?> one email">
 				<input <?=$arResult['EMAIL_REQUIRED']?> type="email" value="<?=$arResult['EMAIL']?>" name="EMAIL" placeholder="<?=$arResult['EMAIL_TITLE']?>" />
@@ -132,7 +132,7 @@
 						f.remove()//.style.display='none';
 						var element = document.createElement('div');
                         element.setAttribute('class','send');
-                        var t = document.createTextNode('<?=GetMessage('skwb24.discount_send')?>');
+                        var t = document.createTextNode('<?=GetMessage('flp.discount_send')?>');
                         element.appendChild(t);
                         document.querySelector('#fly_discount div.content').appendChild(element);
 						flyPopupTargetAction();

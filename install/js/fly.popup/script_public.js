@@ -65,7 +65,7 @@ function startConditions(){
 			}
 		}
 		//console.log(nextPopup);
-		if(BX.getCookie('skwb24_popups_'+key) && nextPopup.repeatTime){
+		if(BX.getCookie('flp_popups_'+key) && nextPopup.repeatTime){
 			delete flyPopups.popups[key];
 		}else if(tmpClassLink==0 && nextPopup.onClickClassLink){
 			delete flyPopups.popups[key];
@@ -83,7 +83,7 @@ function startConditions(){
 				checkConditions(key, 'afterTimeSecond');
 			}
 			
-			if(!BX.getCookie('skwb24_popups_'+key) && nextPopup.repeatTime){
+			if(!BX.getCookie('flp_popups_'+key) && nextPopup.repeatTime){
 				checkConditions(key, 'repeatTime');
 			}
 			if(nextPopup.timeInterval){
@@ -349,7 +349,7 @@ function checkConditions(keyDelete, propDelete){
 				year:31536000,
 				};
 			var tmp_time=type[flyPopups.tmpParams[keyDelete].repeatTime_type]*flyPopups.tmpParams[keyDelete].repeatTime;
-			BX.setCookie('skwb24_popups_'+keyDelete, 'Y', {expires: tmp_time, path:'/'});
+			BX.setCookie('flp_popups_'+keyDelete, 'Y', {expires: tmp_time, path:'/'});
 		}
 		showPopup(keyDelete);
 	}

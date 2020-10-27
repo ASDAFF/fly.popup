@@ -436,7 +436,7 @@ if(empty($idPopup)){
 		<div class="info"><?=GetMessage("fly.popup_CONTACT_NAME")?></div>
 			<label>
 			    <span><?=GetMessage("fly.popup_CONTACT_SEND_MAIL")?></span>
-				<span class="skwb24-item-hint" id="hint_contact_send_mail">?</span>
+				<span class="flp-item-hint" id="hint_contact_send_mail">?</span>
 				<script>
 				new top.BX.CHint({
 					parent: top.BX("hint_contact_send_mail"),
@@ -452,7 +452,7 @@ if(empty($idPopup)){
 			</label>
 			<label class="pref">
 			    <span><?=GetMessage("fly.popup_CONTACT_SAVE_TO_IBLOCK")?></span>
-				<span class="skwb24-item-hint" id="hint_contact_save_to_iblock">?</span>
+				<span class="flp-item-hint" id="hint_contact_save_to_iblock">?</span>
 				<script>
 				new top.BX.CHint({
 					parent: top.BX("hint_contact_save_to_iblock"),
@@ -486,7 +486,7 @@ if(empty($idPopup)){
 			if (\Bitrix\Main\ModuleManager::isModuleInstalled('sender')){?>
 			<label class="pref">
 			    <span><?=GetMessage("fly.popup_CONTACT_SAVE_TO_LIST")?></span>
-				<span class="skwb24-item-hint" id="hint_contact_save_to_list">?</span>
+				<span class="flp-item-hint" id="hint_contact_save_to_list">?</span>
 				<script>
 				new top.BX.CHint({
 					parent: top.BX("hint_contact_save_to_list"),
@@ -503,7 +503,7 @@ if(empty($idPopup)){
 			<?}?>
 			<label class="pref">
 				<span><?=GetMessage("fly.popup_CONTACT_REGISTER")?></span>
-				<span class="skwb24-item-hint" id="hint_contact_register">?</span>
+				<span class="flp-item-hint" id="hint_contact_register">?</span>
 				<script>
 					new top.BX.CHint({
 					parent: top.BX("hint_contact_register"),
@@ -523,7 +523,7 @@ if(empty($idPopup)){
 		<div class="info"><?=GetMessage("fly.popup_TIMER_NAME")?></div>
 		<label class="pref">
 			<span><?=GetMessage("fly.popup_TIMER_ENABLE")?></span>
-			<span class="skwb24-item-hint" id="hint_timer_enable">?</span>
+			<span class="flp-item-hint" id="hint_timer_enable">?</span>
 			<script>
 				new top.BX.CHint({
 					parent: top.BX("hint_timer_enable"),
@@ -540,7 +540,7 @@ if(empty($idPopup)){
 		</label>
 		<label class="pref">
 			<span><?=GetMessage("fly.popup_TIMER_TIME")?></span>
-			<span class="skwb24-item-hint" id="hint_time_hint">?</span>
+			<span class="flp-item-hint" id="hint_time_hint">?</span>
 			<script>
 				new top.BX.CHint({
 					parent: top.BX("hint_time_hint"),
@@ -560,7 +560,7 @@ if(empty($idPopup)){
 		<label class="pref">
 			<?//var_dump($_POST["timer_text"]);?>
 			<span><?=GetMessage("fly.popup_TIMER_TEXT")?></span>
-			<span class="skwb24-item-hint" id="hint_timer_text">?</span>
+			<span class="flp-item-hint" id="hint_timer_text">?</span>
 			<script>
 				new top.BX.CHint({
 					parent: top.BX("hint_timer_text"),
@@ -679,7 +679,7 @@ if(empty($idPopup)){
 					<td class="adm-list-table-cell"><div class="adm-list-table-cell-inner"><?=GetMessage("fly.popup_ROULETTE_TEXT")?></div></td>
 					<td class="adm-list-table-cell"><div class="adm-list-table-cell-inner"><?=GetMessage("fly.popup_ROULETTE_COLOR")?></div></td>
 					<td class="adm-list-table-cell"><div class="adm-list-table-cell-inner"><?=GetMessage("fly.popup_ROULETTE_RULE")?>
-					<span class="skwb24-item-hint" id="hint_roulette_rule">?</span>
+					<span class="flp-item-hint" id="hint_roulette_rule">?</span>
 					<script>
 						new top.BX.CHint({
 							parent: top.BX("hint_roulette_rule"),
@@ -922,7 +922,7 @@ if(empty($idPopup)){
 	<tr><th colspan="2"><?=GetMessage("fly.popup_TABCOND_TITLE_MAIN")?></th></tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_ACTIVE")?>
-			<span class="skwb24-item-hint" id="hint_tabcond_title_main">?</span>
+			<span class="flp-item-hint" id="hint_tabcond_title_main">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_tabcond_title_main"),
@@ -939,7 +939,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_SERVICE_NAME")?>
-			<span class="skwb24-item-hint" id="hint_service_name">?</span>
+			<span class="flp-item-hint" id="hint_service_name">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_service_name"),
@@ -956,7 +956,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_SORT")?>
-			<span class="skwb24-item-hint" id="hint_sort">?</span>
+			<span class="flp-item-hint" id="hint_sort">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_sort"),
@@ -973,7 +973,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_SITE")?>
-			<span class="skwb24-item-hint" id="hint_site">?</span>
+			<span class="flp-item-hint" id="hint_site">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_site"),
@@ -990,7 +990,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_ACTIVE_FROM")?>
-			<span class="skwb24-item-hint" id="hint_from">?</span>
+			<span class="flp-item-hint" id="hint_from">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_from"),
@@ -1007,7 +1007,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_ACTIVE_TO")?>
-			<span class="skwb24-item-hint" id="hint_to">?</span>
+			<span class="flp-item-hint" id="hint_to">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_to"),
@@ -1027,7 +1027,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_GROUPS")?>
-			<span class="skwb24-item-hint" id="hint_groups">?</span>
+			<span class="flp-item-hint" id="hint_groups">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_groups"),
@@ -1044,7 +1044,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_SHOWONLYPATH")?>
-			<span class="skwb24-item-hint" id="hint_maskshow">?</span>
+			<span class="flp-item-hint" id="hint_maskshow">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_maskshow"),
@@ -1061,7 +1061,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_HIDEONLYPATH")?>
-			<span class="skwb24-item-hint" id="hint_maskhide">?</span>
+			<span class="flp-item-hint" id="hint_maskhide">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_maskhide"),
@@ -1078,7 +1078,7 @@ if(empty($idPopup)){
 	</tr>
 	<?/*<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_PATHPRIORITY")?>
-			<span class="skwb24-item-hint" id="hint_maskpriority">?</span>
+			<span class="flp-item-hint" id="hint_maskpriority">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_maskpriority"),
@@ -1098,7 +1098,7 @@ if(empty($idPopup)){
 	</tr>*/?>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_AFTERSHOWCOUNTPAGES")?>
-			<span class="skwb24-item-hint" id="hint_aftershowcount">?</span>
+			<span class="flp-item-hint" id="hint_aftershowcount">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_aftershowcount"),
@@ -1115,7 +1115,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_AFTERTIMESECOND")?>
-			<span class="skwb24-item-hint" id="hint_aftertimesec">?</span>
+			<span class="flp-item-hint" id="hint_aftertimesec">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_aftertimesec"),
@@ -1132,7 +1132,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_TIMEINTERVAL")?>
-			<span class="skwb24-item-hint" id="hint_timeinterval">?</span>
+			<span class="flp-item-hint" id="hint_timeinterval">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_timeinterval"),
@@ -1146,7 +1146,7 @@ if(empty($idPopup)){
 			</script>
 		</td>
 		<td>
-			<?=GetMessage("SKWB24_AG_COND_TIME_FROM")?>
+			<?=GetMessage("FLP_AG_COND_TIME_FROM")?>
 			<?$APPLICATION->IncludeComponent("bitrix:main.clock","",Array(
 				"INPUT_ID" => "",
 				"INPUT_NAME" => "period_from",
@@ -1154,7 +1154,7 @@ if(empty($idPopup)){
 				"INIT_TIME" => $period_from,
 				"STEP" => "1"
 			));?>
-			<?=GetMessage("SKWB24_AG_COND_TIME_TO")?>
+			<?=GetMessage("FLP_AG_COND_TIME_TO")?>
 			<?$APPLICATION->IncludeComponent("bitrix:main.clock","",Array(
 				"INPUT_ID" => "",
 				"INPUT_NAME" => "period_to",
@@ -1166,7 +1166,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_REPEATTIME")?>
-			<span class="skwb24-item-hint" id="hint_repeattime">?</span>
+			<span class="flp-item-hint" id="hint_repeattime">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_repeattime"),
@@ -1198,7 +1198,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_ALREADYGOING")?>
-			<span class="skwb24-item-hint" id="hint_alreadygoing">?</span>
+			<span class="flp-item-hint" id="hint_alreadygoing">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_alreadygoing"),
@@ -1218,7 +1218,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_ANCHORVISIBLE")?>
-			<span class="skwb24-item-hint" id="hint_anchorvisible">?</span>
+			<span class="flp-item-hint" id="hint_anchorvisible">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_anchorvisible"),
@@ -1235,7 +1235,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_ONCLICKCLASSLINK")?>
-			<span class="skwb24-item-hint" id="hint_onclickclasslink">?</span>
+			<span class="flp-item-hint" id="hint_onclickclasslink">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_onclickclasslink"),
@@ -1256,7 +1256,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_SALECOUNTPRODUCT")?>
-			<span class="skwb24-item-hint" id="hint_countproduct">?</span>
+			<span class="flp-item-hint" id="hint_countproduct">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_countproduct"),
@@ -1273,7 +1273,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_SALESUMMBASKET")?>
-			<span class="skwb24-item-hint" id="hint_summbasket">?</span>
+			<span class="flp-item-hint" id="hint_summbasket">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_summbasket"),
@@ -1290,7 +1290,7 @@ if(empty($idPopup)){
 	</tr>
 	<tr>
 		<td><?=GetMessage("fly.popup_TABCOND_SALEIDPRODINBASKET")?>
-			<span class="skwb24-item-hint" id="hint_idinbasket">?</span>
+			<span class="flp-item-hint" id="hint_idinbasket">?</span>
 			<script>
 			new top.BX.CHint({
 				parent: top.BX("hint_idinbasket"),

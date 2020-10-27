@@ -24,16 +24,16 @@ if(\Bitrix\Main\Loader::includeModule('fly.popup')){
 	);
 	if(!empty($reqArr['type'])){
 		if($reqArr['type']=='getPopups' && !empty($reqArr['pageUrl'])){
-			if(empty($_SESSION['skwb24_popup_count_pages'])){
-				$_SESSION['skwb24_popup_count_pages']=1;
+			if(empty($_SESSION['flp_popup_count_pages'])){
+				$_SESSION['flp_popup_count_pages']=1;
 			}else{
-				$_SESSION['skwb24_popup_count_pages']=$_SESSION['skwb24_popup_count_pages']+1;
+				$_SESSION['flp_popup_count_pages']=$_SESSION['flp_popup_count_pages']+1;
 			}
 			$retStr=$popupsO->getAvailablePopups(array(
 				'site'=>$reqArr['site'],
 				'dateUser'=>$reqArr['dateUser'],
 				'pageUrl'=>urldecode($reqArr['pageUrl']),
-				'countPages'=>$_SESSION['skwb24_popup_count_pages']
+				'countPages'=>$_SESSION['flp_popup_count_pages']
 			));
 			$retStr=CUtil::PhpToJSObject($retStr);
 			echo str_replace("'", '"', $retStr);
