@@ -1,4 +1,8 @@
 <?
+/**
+ * Copyright (c) 27/10/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
 $MESS["fly.popup_PARTNER_NAME"] = "ASDAFF";
 $MESS["fly.popup_MODULE_NAME"] = 'Всплывающие окна FLY';
 $MESS["fly.popup_MODULE_DESCRIPTION"] = 'Модуль «Всплывающие окна FLY» - позволяет создавать на Вашем сайте неограниченное число всплывающих окон, которые позволят Вам решать всевозможные задачи.';

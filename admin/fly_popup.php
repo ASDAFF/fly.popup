@@ -1,4 +1,8 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_before.php");
+/**
+ * Copyright (c) 27/10/2020 Created By/Edited By ASDAFF asdaff.asad@yandex.ru
+ */
+
 use \Bitrix\Main\Application,
 	Bitrix\Main\Page\Asset,
 	Bitrix\Main\Request,
@@ -317,7 +321,7 @@ if(!empty($request['id'])){
 	$lAdmin->CheckListMode();
 }
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_after.php");
-
+//$APPLICATION->IncludeFile("/bitrix/modules/".$module_id."/include/headerInfo.php", Array());
 //create or edit popup
 $editFlag = $request->getPost("id_popup");
 if(!empty($editFlag)){
