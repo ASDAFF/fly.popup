@@ -321,7 +321,7 @@ if(!empty($request['id'])){
 	$lAdmin->CheckListMode();
 }
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_after.php");
-//$APPLICATION->IncludeFile("/bitrix/modules/".$module_id."/include/headerInfo.php", Array());
+
 //create or edit popup
 $editFlag = $request->getPost("id_popup");
 if(!empty($editFlag)){
